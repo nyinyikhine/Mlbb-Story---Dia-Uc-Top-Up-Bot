@@ -4,7 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-# --- Configurations (EAAcjCvOQ2XIBQxehwKMLlRGpWybY14pbZCFLSn9LWaGqNmBNkhLuCZAv4dlnub1uXq3HjOCjRsP5NsKyImxiEp1bLFNe3sjwVYhJt1Pyju2hiEeEaIgtNZCcYc68vqwHtCw73jWq3Axn0lZCtOrZAitg6ZBUBsK0eoeoZAxe4qyLGK0tHTqzliZB7NqVpJOZBTOFFJ3IC) ---
+# --- Configurations (EAAcjCvOQ2XIBQ12TvWGnZCdLO28vpq9tmt4YuCDaZBuOcTEXd4XL31ycKTLReHprKMatvOrG5v3o0mcOhal3bryVJM495cIozkxBpsZBWHrK5JGSX7z7Pp4WRL08vVPhFZCbHsEJT3IyledmI42GugCEvRcwzydG2ZBsfOAfLhSXzlqc5oxjxoeCVlk7AkjfrCD3j) ---
 PAGE_ACCESS_TOKEN = "သင်၏_PAGE_ACCESS_TOKEN" # Facebook မှရသော Token
 VERIFY_TOKEN = "my_mlbb_bot_123"             # Facebook Webhook တွင် ထည့်ရမည့်စာသား
 GOOGLE_SHEET_URL = "https://script.google.com/macros/s/AKfycbxS3JzeTCCGcockMspTObcZG2SvI-3s9BFVxwMA5H0n4DuK0N8cotNHyBshb6XHabNdQQ/exec" # Google App Script မှရသော URL
