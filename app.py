@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # --- Configurations (EAAcjCvOQ2XIBQxehwKMLlRGpWybY14pbZCFLSn9LWaGqNmBNkhLuCZAv4dlnub1uXq3HjOCjRsP5NsKyImxiEp1bLFNe3sjwVYhJt1Pyju2hiEeEaIgtNZCcYc68vqwHtCw73jWq3Axn0lZCtOrZAitg6ZBUBsK0eoeoZAxe4qyLGK0tHTqzliZB7NqVpJOZBTOFFJ3IC) ---
 PAGE_ACCESS_TOKEN = "သင်၏_PAGE_ACCESS_TOKEN" # Facebook မှရသော Token
-VERIFY_TOKEN = "mlbb_bot"             # Facebook Webhook တွင် ထည့်ရမည့်စာသား
+VERIFY_TOKEN = "my_mlbb_bot_123"             # Facebook Webhook တွင် ထည့်ရမည့်စာသား
 GOOGLE_SHEET_URL = "https://script.google.com/macros/s/AKfycbxS3JzeTCCGcockMspTObcZG2SvI-3s9BFVxwMA5H0n4DuK0N8cotNHyBshb6XHabNdQQ/exec" # Google App Script မှရသော URL
 
 # စိန်စျေးနှုန်းများ (အလိုအလျောက် စာပြန်ရန်)
