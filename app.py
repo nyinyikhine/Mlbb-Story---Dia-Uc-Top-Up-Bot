@@ -4,7 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-# --- Configurations (ဤနေရာတွင် သင်၏ အချက်အလက်များ အစားထိုးပါ) ---
+# --- Configurations (EAAcjCvOQ2XIBQxehwKMLlRGpWybY14pbZCFLSn9LWaGqNmBNkhLuCZAv4dlnub1uXq3HjOCjRsP5NsKyImxiEp1bLFNe3sjwVYhJt1Pyju2hiEeEaIgtNZCcYc68vqwHtCw73jWq3Axn0lZCtOrZAitg6ZBUBsK0eoeoZAxe4qyLGK0tHTqzliZB7NqVpJOZBTOFFJ3IC) ---
 PAGE_ACCESS_TOKEN = "သင်၏_PAGE_ACCESS_TOKEN" # Facebook မှရသော Token
 VERIFY_TOKEN = "my_mlbb_bot_123"             # Facebook Webhook တွင် ထည့်ရမည့်စာသား
 GOOGLE_SHEET_URL = "သင်၏_GOOGLE_WEB_APP_URL" # Google App Script မှရသော URL
