@@ -63,7 +63,7 @@ def webhook():
                     # ၂. ID လက်ခံရရှိခြင်း (ဂဏန်းများပါပြီး ၅ လုံးထက်ကျော်လျှင် ID ဟု သတ်မှတ်သည်)
                     elif any(char.isdigit() for char in user_text) and len(user_text) > 5:
                         send_to_google_sheet(sender_id, user_text)
-                        response = f"ID: {user_text} ကို လက်ခံရရှိပါသည်။ Google Sheet ထဲတွင် အော်ဒါတင်လိုက်ပါပြီ။\n\nကျေးဇူးပြု၍ ငွေလွှဲ Screenshot ပို့ပေးပါ။ Admin မှ စစ်ဆေးပြီး ထည့်ပေးပါမည်။"
+                        response = f"ID: {user_text} ကို လက်ခံရရှိပါသည်။order တင်ပြီးပါပြီ အော်ဒါတင်လိုက်ပါပြီ။\n\nကျေးဇူးပြု၍ ငွေလွှဲ Screenshot ပို့ပေးပါ။ Admin မှ စစ်ဆေးပြီး ထည့်ပေးပါမည်။"
                         send_message(sender_id, response)
                     
                     # ၃. အခြားစာများအတွက်
